@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "HelpMeOut",
+  "version": "1.0",
+  "description": "A Chrome extension for screen recording and sharing to a certain Location",
+  "permissions": ["activeTab", "webRequest", "desktopCapture", "storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/HelpMe16.png",
+      "48": "assets/HelpMe48.png",
+      "128": "assets/HelpMe128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/HelpMe16.png",
+    "48": "assets/HelpMe48.png",
+    "128": "assets/HelpMe128.png"
+  }
+}
